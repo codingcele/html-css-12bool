@@ -21,18 +21,16 @@
 /* griglia a 12 */
 
 .row {
+    width: calc(100% - 25px);
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex: 0 0 auto;
 }
-
-
 
 /*  colonne */
 
 [class*="col-"] {
     display: flex;
-    flex: 0 0 auto;
     justify-content: center;
     align-items: center;
     color: white;
